@@ -13,13 +13,11 @@ Cấu trúc thư mục dự án (Directory Structure)
 ├── notebook/                            # Thư mục chứa Jupyter Notebooks (Mã nguồn chính)
 │   ├── Lab1.pdf                         # Thực hành Tokenizer & Vectorizer
 │   
-├── report/                              # Thư mục chứa báo cáo
-│   └── lap1.md                          # File báo cáo chi tiết này
-│
-├── src/                                 # Mã nguồn Python (Modules/Classes tái sử dụng)
-│   └── Lap1
+├──   lap1.md                        # File báo cáo chi tiết này
+├──      Lap1                           # Mã nguồn Python (Modules/Classes tái sử dụng)
+│   
 ├── .gitignore                           # File cấu hình bỏ qua file rác (tmp, __pycache__)
-└── README.md                            # Hướng dẫn chạy và tổng quan dự án
+
 
 
 1. Các bước triển khai
@@ -158,3 +156,4 @@ Mô hình sử dụng:
 Bài thực hành này không sử dụng các Pre-trained Model (như BERT, GPT).
 
 Toàn bộ các thuật toán Tokenizer và Vectorizer được cài đặt thủ công (from scratch) bằng Python thuần để hiểu rõ bản chất của phương pháp "Bag of Words" và xử lý chuỗi.
+
